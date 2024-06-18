@@ -15,4 +15,5 @@ for(let i=0;i <botoes.length;i++){
             let tempoFinal = tempoObjetivo - tempoAtual;
             let segundos = tempoFinal / 1000;
             let minutos = Math.floor(segundos / 60);
-            return horas; }
+            let dias = Math.floor(horas / 24);
+            return dias; }
